@@ -80,3 +80,4 @@ service redirect2 on new http:Listener(9093) {
         }
     }
 }
+//remove the already running process : fuser -k -n tcp 9090
